@@ -1,0 +1,463 @@
+/*
+
+Theme Name: W-Gridfolio
+
+Theme URI: http://w-portfolio.com
+
+Description: W-Portfolio is a highly efficient portfolio theme created for Wordpress that uses a special grid system to organize content and create an optimized view of your work.
+
+Author: BK-W.com
+
+Version: 1.0
+
+Tags: design, portfolio
+
+*/
+
+
+
+html{color:#000;background:#fff;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+
+
+body{background:#fff}
+
+
+
+#container {margin: 0;width: 100%;clear:both;}
+
+#centerContainer{
+
+    width: 980px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+body,p,textarea {
+
+font-family: Arial, sans-serif; 
+
+font-size:12px;line-height:16px
+
+}
+
+
+
+#main{margin: 0px 0px 0px 0px;overflow:hidden;padding:0;clear:both}
+
+#main div{display:block;float:left}
+
+#header {padding:15px 0px 0px 0px;max-width:980px;background:transparent;z-index:999;}
+
+#content {position:relative;padding-bottom:15px;min-height:784px}
+
+#pagecontent{max-width:573px}
+
+#wrapper {margin: 0px;}
+
+#pagecontent a:link{color:#000;text-decoration:underline}
+
+#pagecontent a:visited{color:#000;text-decoration:underline}
+
+#pagecontent a:hover{color:#000;text-decoration:none}
+
+#pagecontent a:active{color:#000;text-decoration:none}
+
+#pagecontent h1{font-size:26px;line-height:28px;margin:0;padding:0}
+
+#pagecontent h2{font-size:18px;line-height:24px;margin:0;padding:0}
+
+#pagecontent h3{font-size:18px;line-height:none;margin:0;padding:0}
+
+
+
+strong {font-weight: bold;}
+
+em,i {font-style: italic;}
+
+
+
+#page-list{width:181px;padding:0px 15px 15px 0px;float:left}
+
+#cat-list{width:181px;padding:0px 15px 15px 0px;float:left}
+
+#site-title {width:181px;padding:0px 15px 15px 0px;float:left}
+
+#searchbox{width:181px;padding:0px 0px 0px 0px;float:left;background:#fff url('srch.gif') no-repeat right center;}
+
+#bkwtag{width:181px;padding:0px 15px 15px 0px;float:left}
+
+#bkwtag a:link{color:#000}
+
+#bkwtag a:visited{color:#000}
+
+#bkwtag a:hover{color:#000}
+
+#bkwtag a:active{color:#000}
+
+
+
+#footerbox{position:relative;clear:both;min-width:300px;margin:15px 0px 15px 0px;color:#888}
+#footerbox a:link{color:#888;text-decoration:none}
+#footerbox a:visited{color:#888;text-decoration:none}
+#footerbox a:hover{color:#000;text-decoration:none}
+#footerbox a:active{color:#000;text-decoration:none}
+
+
+#contentcopy {text-decoration:none;width:186px;padding-right:10px}
+
+#imgcontent{max-width:980px}
+
+#imgcontent img{max-width:573px;height:auto;display:block;margin-bottom:15px}
+
+#imgwrap{background:#000}
+
+.image-holder{}
+
+.pagetitle{}
+
+.pagecontent{}
+
+#relatedposts a{font-size:10px}
+#relatedposts{position:absolute;margin-left:784px;height:980px}
+#relatedthumb{width:181px;height:inherit;overflow:hidden;margin:0px 15px 15px 0px}
+#relatedthumb img{width:181px;height:auto}
+
+#featpost{max-height:300px;min-height:300px;max-width:181px;min-width:181px;overflow:hidden;margin:0px 15px 15px 0px;}
+.attachment-large{width:181px;height:auto}
+
+
+div#figcaptionwrap{top:0;left:0}
+
+
+
+figure {
+
+  margin:0;
+
+  padding:0;
+
+float:left;
+
+}
+
+
+
+figcaption{
+
+  max-width:295px;
+
+  position:absolute;
+
+  background:#000;
+
+  color:#fff;
+
+  opacity: 0;
+
+  -webkit-transition: opacity .5s ease-in-out;
+
+  -moz-transition: opacity .5s ease-in-out;
+
+  -o-transition: opacity .5s ease-in-out;
+
+  transition: opacity .5s ease-in-out;
+
+  padding:15px;
+
+}
+
+
+
+figcaption.featuredcaptag{
+
+display:none;
+
+  max-width:300px;
+
+  background:#ff0000;
+
+  color:#fff;
+
+  opacity: 1;
+
+  -webkit-transition: opacity .5s ease-in-out;
+
+  -moz-transition: opacity .5s ease-in-out;
+
+  -o-transition: opacity .5s ease-in-out;
+
+  transition: opacity .5s ease-in-out;
+
+  padding:15px;
+
+}
+
+
+
+figcaption.featuredcap{
+
+  max-width:300px;
+
+  margin-left:0px;
+
+  background:#000;
+
+  color:#fff;
+
+  opacity: 0;
+
+  -webkit-transition: opacity .5s ease-in-out;
+
+  -moz-transition: opacity .5s ease-in-out;
+
+  -o-transition: opacity .5s ease-in-out;
+
+  transition: opacity .5s ease-in-out;
+
+  padding:15px;
+
+}
+
+
+
+figcaption.relatedcap{max-width:140px;padding:5px;opacity:0}
+
+
+
+figure:hover figcaption{
+
+  opacity: 1;
+
+}
+
+
+
+figcaption, h1, h2, h3, h4 {
+
+font-size:12px;
+
+}
+
+
+
+figcaption.* {
+
+  filter: alpha(opacity=0);
+
+}
+
+
+
+figure:hover figcaption {
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#aa000000,endColorstr=#aa000000);
+
+}
+
+
+
+
+
+
+
+.screen-reader-text {position: absolute;left: -9000px;}
+
+
+
+fieldset.search {}
+
+.search input {border: none;}
+
+.search input.box {background:transparent;color:#ccc;}
+
+.search input.box:hover {background:transparent;color:#000;}
+
+.search input.box:focus {background:transparent;color:#000;outline: none;}
+
+
+
+#site-title {font-size:31px;font-weight:bold;line-height:27px}
+
+#site-title a:link {font-weight:bold;color:#000;text-decoration:none}
+
+#site-title a:hover {font-weight:bold;color: #000;text-decoration:none}
+
+#site-title a:visited {font-weight:bold;color: #000;text-decoration:none}
+
+#site-title a:active {font-weight:bold;color: #000;text-decoration:none}
+
+
+
+#contentcopy a:link {color:#000;text-decoration:underline}
+
+#contentcopy a:hover {color: #000;text-decoration:none}
+
+#contentcopy a:visited {color: #000;text-decoration:none}
+
+#contentcopy a:active {color: #000;text-decoration:none}
+
+
+
+#relatedposts a:link {color:#fff;text-decoration:none}
+
+#relatedposts a:hover {color: #fff;text-decoration:none}
+
+#relatedposts a:visited {color: #fff;text-decoration:none}
+
+#relatedposts a:active {color: #fff;text-decoration:none}
+
+
+
+figcaption a:link, a:visited, a:hover, a:active{text-decoration:none; color:#fff;}
+
+
+
+#page-list a {	color: #000;text-decoration: none;list-style:none;}
+
+#page-list a:hover {	color: #FF0000;text-decoration: none;list-style:none;}
+
+#cat-list a {	color: #000;text-decoration: none;list-style:none;}
+
+#cat-list a:hover {	color: #FF0000;text-decoration: none;list-style:none;}
+
+
+
+#page-list ul li.current_page_item > a,
+
+#page-list ul li.current-cat > a,
+
+#page-list ul li.current-cat-parent > a,
+
+#page-list ul li.current-menu-ancestor > a,
+
+#page-list ul li.current-menu-item > a,
+
+#page-list ul li.current-menu-parent > a {color: #FF0000;}
+
+
+
+#cat-list ul li.current_page_item > a,
+
+#cat-list ul li.current-cat > a,
+
+#cat-list ul li.current-cat-parent > a,
+
+#cat-list ul li.current-menu-ancestor > a,
+
+#cat-list ul li.current-menu-item > a,
+
+#cat-list ul li.current-menu-parent > a {color: #FF0000;}
+
+#cat-list li.current-cat a{color: #FF0000;}
+
+
+
+* html #page-list ul li.current_page_item a,
+
+* html #page-list ul li.current-cat > a,
+
+* html #page-list ul li.current-cat-parent > a,
+
+* html #page-list ul li.current-menu-ancestor a,
+
+* html #page-list ul li.current-menu-item a,
+
+* html #page-list ul li.current-menu-parent a,
+
+* html #page-list ul li a:hover {color: #FF0000;}
+
+
+
+* html #cat-list ul li.current_page_item a,
+
+* html #cat-list ul li.current-cat > a,
+
+* html #cat-list ul li.current-cat-parent > a,
+
+* html #cat-list ul li.current-menu-ancestor a,
+
+* html #cat-list ul li.current-menu-item a,
+
+* html #cat-list ul li.current-menu-parent a,
+
+* html #cat-list ul li a:hover {color: ##FF0000;}
+
+
+
+#page-list, #cat-list,
+
+.entry-meta,
+
+.entry-utility,
+
+.navigation,
+
+.widget-area {
+
+	-webkit-text-size-adjust: 120%;
+
+}
+
+
+#slideshow{
+	background-color:#F5F5F5;
+	border:1px solid #FFFFFF;
+	height:340px;
+	margin:150px auto 0;
+	position:relative;
+	width:640px;
+	
+	-moz-box-shadow:0 0 22px #111;
+	-webkit-box-shadow:0 0 22px #111;
+	box-shadow:0 0 22px #111;
+}
+
+#slideshow ul{
+	height:320px;
+	left:10px;
+	list-style:none outside none;
+	overflow:hidden;
+	position:absolute;
+	top:10px;
+	width:620px;
+}
+
+#slideshow li{
+	position:absolute;
+	display:none;
+	z-index:10;
+}
+
+#slideshow li:first-child{
+	display:block;
+	z-index:1000;
+}
+
+#slideshow .slideActive{
+	z-index:1000;
+}
+
+#slideshow canvas{
+	display:none;
+	position:absolute;
+	z-index:100;
+}
+
+#slideshow .arrow{
+	height:86px;
+	width:60px;
+	position:absolute;
+	background:url('img/arrows.png') no-repeat;
+	top:50%;
+	margin-top:-43px;
+	cursor:pointer;
+	z-index:5000;
+}
+
+#slideshow .previous{ background-position:left top;left:0;}
+#slideshow .previous:hover{ background-position:left bottom;}
+
+#slideshow .next{ background-position:right top;right:0;}
+#slideshow .next:hover{ background-position:right bottom;}
