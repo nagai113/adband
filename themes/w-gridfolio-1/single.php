@@ -31,11 +31,11 @@
 <span class="pagecontent"><?php the_content(); ?></span><br />
 
 </div><!-- copy -->
-
+<!--
 <div id="imgcontent">
 <?php my_attachment_gallery(0, 'large', 'alt="' . $post->post_title . '"'); ?>
 </div>
-
+-->
 <div id="relatedposts">
 <?php $orig_post = $post;
 global $post;
