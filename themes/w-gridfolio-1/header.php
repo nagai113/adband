@@ -29,12 +29,12 @@
 <div id="site-title">
 <a href="<?php bloginfo('url'); ?>" target="_self"><?php bloginfo('name'); ?></a>
 </div>
-
+<!--
 <div id="bkwtag">
 <?php bloginfo('description'); ?>
-</div>
-
+</div>-->
+<!--
 <div id="searchbox" style="margin:0px 0px 15px -1px"><?php get_search_form(); ?></div>
-
+-->
 </div><!-- header div -->
 <div id="main">
