@@ -18,8 +18,7 @@
 <div id="header">
 
 <div id="cat-list">
-<?php wp_nav_menu (array ( 'theme_location' => 'projects-nav') ); ?>
-
+<!--<?php wp_nav_menu (array ( 'theme_location' => 'projects-nav') ); ?>-->
 </div>
 
 <div id="page-list">
