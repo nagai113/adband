@@ -27,7 +27,7 @@
 </div>
 
 <div id="site-title">
-<a href="<?php bloginfo('url'); ?>" target="_self"><?php bloginfo('name'); ?></a>
+<a href="<?php bloginfo('url'); ?>" target="_self"><img src="http://adband-jp.com/wp/wp-content/uploads/2013/04/adband_logo_wordpress_top.jpg"></a>
 </div>
 <!--
 <div id="bkwtag">
