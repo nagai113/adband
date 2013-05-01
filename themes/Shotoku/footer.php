@@ -35,7 +35,7 @@
 			<?php endif; ?>
 			<div class="clear"></div>
 
-	<p class="copyright"><span class="f_links"><a href="<?php bloginfo('rss2_url'); ?>">Articles (RSS)</a>,<a href="<?php bloginfo('comments_rss2_url'); ?>">Commentaires (RSS)</a>| </span><span class="f_links"> Designed by <a href="http://kachibito.net/">Shiro</a>,Powered by <a href="http://wordpress.org/">WordPress</a></span> </p>
+	<p class="copyright"><span class="f_links"><a href="<?php bloginfo('rss2_url'); ?>">Articles (RSS)</a>,<a href="<?php bloginfo('comments_rss2_url'); ?>">Commentaires (RSS)</a></p>
 	<small class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> . All Rights Reserved.</small>
 	</div><!-- container --> 
 
