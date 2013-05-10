@@ -8,12 +8,12 @@
 			<aside>
 				<data value="<?php echo get_the_date(); ?>"><?php echo get_the_date(); ?></data>
 			<?php if (get_post_meta($post->ID, "p-name", true)) : ?>
-		<span class="p-name">Photo by <?php $key="p-name"; echo get_post_meta($post->ID, $key, true); ?></span>
+		<span class="p-name"><?php $key="p-name"; echo get_post_meta($post->ID, $key, true); ?></span>
 			<?php else : ?>
 			<?php endif; ?>
 
 				<address>
-		<span>Post by <a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author"><?php the_author(); ?></a></span>
+		<span><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author"></a></span>
 				</address>
 			</aside>
 
