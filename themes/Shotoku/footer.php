@@ -35,7 +35,7 @@
 			<?php endif; ?>
 			<div class="clear"></div>
 
-	<p class="copyright"><span class="f_links"><a href="<?php bloginfo('rss2_url'); ?>">Articles (RSS)</a>,<a href="<?php bloginfo('comments_rss2_url'); ?>">Commentaires (RSS)</a></p>
+	<p class="copyright"></p>
 	<small class="copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> . All Rights Reserved.</small>
 	</div><!-- container --> 
 
