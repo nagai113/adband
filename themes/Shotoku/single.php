@@ -16,19 +16,12 @@
 		<span><a href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ); ?>" rel="author"></a></span>
 				</address>
 			</aside>
-
-			<?php if (get_post_meta($post->ID, "img_link", true)) : ?>
-		<a href="<?php $key="img_link"; echo get_post_meta($post->ID, $key, true); ?>" alt="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
-			<?php else : ?>
-		<?php the_post_thumbnail(); ?>
-			<?php endif; ?>
-
 			
 		</section> 
 
 		<section class="eleven single-main"> 
-			<aside>Categries: <?php the_category(', ') ?></aside>
 				<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+							<aside>Categries: <?php the_category(', ') ?></aside>
 	<?php the_content(); ?>
 
 			<aside class="tags">
