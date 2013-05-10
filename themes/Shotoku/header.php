@@ -52,8 +52,7 @@
 		<header>
 
 			<hgroup class="eleven"> 
-				<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1> 
-				<h2><?php bloginfo( 'description' ); ?></h2>
+				<h1><a href="<?php echo get_option('home'); ?>/"><img src="http://adband-jp.com/wp/wp-content/uploads/2013/04/adband_logo_wordpress_top.jpg"></a></h1> 
 			</hgroup> 
 
 
