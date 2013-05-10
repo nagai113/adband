@@ -6,7 +6,6 @@
 	<article class="single_article">
 		<section id="headerImage" class="eleven single-main"> 
 			<aside>
-				<data value="<?php echo get_the_date(); ?>"><?php echo get_the_date(); ?></data>
 			<?php if (get_post_meta($post->ID, "p-name", true)) : ?>
 		<span class="p-name"><?php $key="p-name"; echo get_post_meta($post->ID, $key, true); ?></span>
 			<?php else : ?>
@@ -21,7 +20,8 @@
 
 		<section class="eleven single-main"> 
 				<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-							<aside>Categries: <?php the_category(', ') ?></aside>
+				<aside><data value="<?php echo get_the_date(); ?>"><?php echo get_the_date(); ?></data>&nbsp Categries: <?php the_category(', ') ?></aside><br>
+	
 	<?php the_content(); ?>
 
 			<aside class="tags">
