@@ -22,8 +22,9 @@ query_posts(
 	</section> 
 			<?php endwhile; else : ?>
 				<section class="eleven single-main noresults"> 
-					<h2>No Results Found</h2>
-						<p>We couldn't find any results for the search terms you provided. Why not try another search?</p>
+					<h4>見つからないねぇ...</h4><br><br>
+						<p>Not found.</p>
+						<br>
 				</section> 
 			<?php endif; ?>	
 					<div class="clear"></div>
