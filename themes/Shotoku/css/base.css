@@ -64,7 +64,7 @@
 ================================================== */
 	h1, h2, h3, h4, h5, h6 { 
 		color: #181818; 
-		font-family: 'Gentium Basic', serif;
+		font-family: 'sans-serif', serif;
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; text-decoration: none ;}
 	h1 { font-size: 46px; line-height: 46px; margin-bottom: 1px;}
