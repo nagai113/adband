@@ -46,7 +46,6 @@
 	<?php endif; ?>
 
 		<section class="eleven single-main commnetsarea">
-			<?php comments_template(); ?>
 		</section> 
 	</article>
 <?php get_footer(); ?>
