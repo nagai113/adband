@@ -20,10 +20,9 @@
 
 		<section class="eleven single-main"> 
 				<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
-				<aside><data value="<?php echo get_the_date(); ?>"><?php echo get_the_date(); ?></data>&nbsp Categries: <?php the_category(', ') ?></aside><br>
+				<?php the_content(); ?>
+				<aside><data value="<?php echo get_the_date(); ?>"><?php echo get_the_date(); ?></data>&nbsp Categries: <?php the_category(', ') ?></aside>
 	
-	<?php the_content(); ?>
-
 			<aside class="tags">
 				<ul>
 			<li><?php the_tags( 'Tags: ', ', ', '' ); ?></li>
